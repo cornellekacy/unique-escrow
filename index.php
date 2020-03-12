@@ -298,9 +298,9 @@ Buyers and sellers fully anonymous. We do not need personal details and we do no
                     <!-- Single Cool Facts Area -->
                     <div class="col-12 col-sm-6 col-lg-3">
                         <div class="single-cf-area d-flex align-items-center mb-80">
-                            <h2><span class="counter">50</span></h2>
+                            <h2><span class="counter">50</span>+</h2>
                             <div class="cf-text">
-                                <h6>WEB<br>awards</h6>
+                                <h6>Awards</h6>
                             </div>
                             <div class="bg-icon"><i class="icon_book_alt"></i></div>
                         </div>

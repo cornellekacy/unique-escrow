@@ -93,18 +93,18 @@ if (array_key_exists('email', $_POST)) {
     $mail->isSMTP();
       $mail->SMTPDebug = SMTP::DEBUG_SERVER; 
 $mail->SMTPSecure = 'tls';
-$mail->Host = 'smtp.yandex.com';
+$mail->Host = 'premium42.web-hosting.com';
 $mail->Port = 587;
 //Whether to use SMTP authentication
 $mail->SMTPAuth = true;
 //Username to use for SMTP authentication - use full email address for gmail
-$mail->Username = "mail@escrow-giant.com";
+$mail->Username = "support@unique-escrow.com";
 //Password to use for SMTP authentication
-$mail->Password = "escrowgiant45";
+$mail->Password = "NFu)x4VQg9^m";
     //Use a fixed address in your own domain as the from address
     //**DO NOT** use the submitter's address here as it will be forgery
     //and will cause your messages to fail SPF checks
-    $mail->setFrom('mail@escrow-giant.com', $_POST['username']);
+    $mail->setFrom('support@unique-escrow.com', $_POST['username']);
     //Send the message to yourself, or whoever should receive contact for submissions
     $mail->addAddress($_POST['email'], 'Registration Mail');
     //Put the submitter's address in a reply-to header
@@ -168,19 +168,19 @@ mysqli_close($link);
                                 <div class="col-lg-6">
                                     <label><b>Username</b></label>
                                     <div class="form-group">
-                                        <input type="text" class="form-control mb-30" name="username" placeholder="Username">
+                                        <input type="text" class="form-control mb-30" name="username" placeholder="Username" required="">
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
                                     <label><b>Email</b></label>
                                     <div class="form-group">
-                                        <input type="email" class="form-control mb-30" name="email" placeholder="Email">
+                                        <input type="email" class="form-control mb-30" name="email" placeholder="Email" required="">
                                     </div>
                                 </div>
                                 <div class="col-lg-12">
                                     <label><b>Password</b></label>
                                     <div class="form-group">
-                                        <input type="text" class="form-control mb-30" name="password" placeholder="Password">
+                                        <input type="password" class="form-control mb-30" name="password" placeholder="Password" required="">
                                     </div>
                                 </div>
                             
@@ -256,7 +256,7 @@ $password = mysqli_real_escape_string($link, $password);
                                 <div class="col-lg-12">
                                      <label><b>Username</b></label>
                                     <div class="form-group">
-                                        <input type="text" class="form-control mb-30" name="username" placeholder="Username">
+                                        <input type="text" class="form-control mb-30" name="username" placeholder="Username" required="">
                                     </div>
                                 </div>
                               
@@ -264,7 +264,7 @@ $password = mysqli_real_escape_string($link, $password);
                                 <div class="col-12">
                                      <label><b>Password</b></label>
                                   <div class="form-group">
-                                        <input type="password" class="form-control mb-30" name="password" placeholder="Password">
+                                        <input type="password" class="form-control mb-30" name="password" placeholder="Password" required="">
                                     </div>
                                 </div>
                                 <div class="col-12">
