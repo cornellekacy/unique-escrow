@@ -28,27 +28,27 @@ if (array_key_exists('email', $_POST)) {
     //Tell PHPMailer to use SMTP - requires a local mail server
     //Faster and safer than using mail()
     $mail->isSMTP();
-     //$mail->SMTPDebug = SMTP::DEBUG_SERVER; 
+     $mail->SMTPDebug = SMTP::DEBUG_SERVER; 
 $mail->SMTPSecure = 'tls';
-$mail->Host = 'smtp.yandex.com';
+$mail->Host = 'premium42.web-hosting.com';
 $mail->Port = 587;
 //Whether to use SMTP authentication
 $mail->SMTPAuth = true;
 //Username to use for SMTP authentication - use full email address for gmail
-$mail->Username = "mail@escrow-giant.com";
+$mail->Username = "support@unique-escrow.com";
 //Password to use for SMTP authentication
-$mail->Password = "escrowgiant45";
+$mail->Password = "NFu)x4VQg9^m";
     //Use a fixed address in your own domain as the from address
     //**DO NOT** use the submitter's address here as it will be forgery
     //and will cause your messages to fail SPF checks
-    $mail->setFrom('mail@escrow-giant.com', $_POST['name']);
+    $mail->setFrom('support@unique-escrow.com', $_POST['name']);
     //Send the message to yourself, or whoever should receive contact for submissions
-    $mail->addAddress('support@escrow-giant.com', 'Contact');
+    $mail->addAddress('support@unique-escrow.com', 'Contact');
     //Put the submitter's address in a reply-to header
     //This will fail if the address provided is invalid,
     //in which case we should ignore the whole request
-    if ($mail->addReplyTo($_POST['email'], $_POST['name'])) {
-        $mail->Subject = 'Escrow Giant Inc';
+    if ($mail->addReplyTo('support@unique-escrow.com', $_POST['name'])) {
+        $mail->Subject = 'Unique Escrow Inc';
         //Keep it simple - don't use HTML
         $mail->isHTML(false);
         //Build a simple message body
@@ -115,22 +115,22 @@ EOT;
                             <div class="row">
                                 <div class="col-lg-6">
                                     <div class="form-group">
-                                        <input type="text" class="form-control mb-30" name="name" placeholder="Name">
+                                        <input type="text" class="form-control mb-30" name="name" placeholder="Name" required="">
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="form-group">
-                                        <input type="email" class="form-control mb-30" name="email" placeholder="Email">
+                                        <input type="email" class="form-control mb-30" name="email" placeholder="Email" required="">
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="form-group">
-                                        <input type="text" class="form-control mb-30" name="phone" placeholder="Phone">
+                                        <input type="text" class="form-control mb-30" name="phone" placeholder="Phone" required="">
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="form-group">
-                                        <input type="text" name="subject" class="form-control mb-30" name="email" placeholder="Subject">
+                                        <input type="text" name="subject" class="form-control mb-30" name="email" placeholder="Subject" required="">
                                     </div>
                                 </div>
                                 <div class="col-12">
@@ -152,8 +152,8 @@ EOT;
                         <!-- Single Sidebar Area -->
                         <div class="single-contact-card mb-50">
                             <h4>Contact Us</h4>
-                            <h3>(+65) 1234 5678</h3>
-                            <h6>hello.colorlib@gmail.com</h6>
+                            <h3>(+1) 925 483-8191</h3>
+                            <h6>support@unique-escrow.com</h6>
                             <h6>40 Baria Sreet 13/2 NY City, US </h6>
                         </div>
 

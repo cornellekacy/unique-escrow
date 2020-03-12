@@ -10,8 +10,8 @@
 
                         <!-- Footer Content -->
                         <div class="footer-content mb-15">
-                            <h3>(+65) 1234 5678</h3>
-                            <p>40 Baria Sreet 13/2 NY City, US <br> hello.colorlib@gmail.com</p>
+                            <h3>(+1) 925 483-8191</h3>
+                            <p>40 Baria Sreet 13/2 NY City, US <br> support@unique-escrow.com</p>
                         </div>
                      
                     </div>

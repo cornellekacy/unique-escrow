@@ -57,7 +57,7 @@
                             <!-- Welcome Thumbnail -->
                             <div class="col-12 col-md-6">
                                 <div class="welcome-thumbnail">
-                                    <img src="./img/bg-img/1.png" alt="" data-animation="slideInRight" data-delay="400ms">
+                                    <img src="./img/home2.png" alt="" data-animation="slideInRight" data-delay="400ms">
                                 </div>
                             </div>
                         </div>
@@ -87,7 +87,7 @@
                             <!-- Welcome Thumbnail -->
                             <div class="col-12 col-md-6">
                                 <div class="welcome-thumbnail">
-                                    <img src="./img/bg-img/1.png" alt="" data-animation="slideInRight" data-delay="400ms">
+                                    <img src="./img/home3.jpg" alt="" data-animation="slideInRight" data-delay="400ms">
                                 </div>
                             </div>
                         </div>
@@ -135,7 +135,7 @@ Buyers and sellers fully anonymous. We do not need personal details and we do no
                 <!-- About Thumbnail -->
                 <div class="col-12 col-md-6">
                     <div class="about-us-thumbnail mb-80">
-                        <img src="./img/bg-img/2.jpg" alt="">
+                        <img src="./img/about.png" alt="">
                         <!-- Video Area -->
                         <div class="uza-video-area hi-icon-effect-8">
                             <a href="" class="hi-icon video-play-btn"><i class="fa fa-play" aria-hidden="true"></i></a>
@@ -342,7 +342,7 @@ Buyers and sellers fully anonymous. We do not need personal details and we do no
                     <div class="col-12 col-lg-4">
                         <div class="cta-content mb-80">
                             <div class="call-now-btn">
-                                <a href="#"><span>Call us now:</span> (+65) 1234 5678</a>
+                                <a href="#"><span>Call us now:</span> (+1) 925 483-8191</a>
                             </div>
                         </div>
                     </div>
